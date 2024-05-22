@@ -1,7 +1,16 @@
-import { MainMenuStyle } from './MainMenuStyled';
+import { MainMenuStyle, MenuList, MenuItem } from "./MainMenuStyled";
 
 const MainMenu = () => {
-  return <MainMenuStyle>MainMenu</MainMenuStyle>;
+  return (
+    <MainMenuStyle>
+      <MenuList>
+        <MenuItem>Информация</MenuItem>
+        <MenuItem>Статьи</MenuItem>
+        <MenuItem>Отзывы</MenuItem>
+        <MenuItem>Контакты</MenuItem>
+      </MenuList>
+    </MainMenuStyle>
+  );
 };
 
 export default MainMenu;

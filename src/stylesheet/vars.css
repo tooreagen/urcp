@@ -1,12 +1,12 @@
 :root {
   /* fonts */
-  --main-font: 'Inter', sans-serif;
-  --secondary-font: 'Coolvetica', sans-serif;
+  --main-font: "Inter", sans-serif;
+  --secondary-font: "Coolvetica", sans-serif;
 
   /* text */
-  --main-text-color: rgb(255, 255, 255);
+  --main-text-color: rgb(31, 31, 31);
   --hover-text-color: rgb(122, 122, 122);
 
   /* backgroung */
-  --main-background-color: #000000;
+  --main-background-color: #bdbdbd;
 }
