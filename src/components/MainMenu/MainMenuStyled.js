@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const MainMenuStyle = styled.div`
-  background-color: #ff4e4e;
+  background-color: var(--accent-color);
 `;
 
 export const MenuList = styled.ul`

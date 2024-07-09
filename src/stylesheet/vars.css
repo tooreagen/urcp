@@ -1,4 +1,7 @@
 :root {
+  /* main colors*/
+  --accent-color: #ff4e4e;
+  
   /* fonts */
   --main-font: "Inter", sans-serif;
   --secondary-font: "Coolvetica", sans-serif;
