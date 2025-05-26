@@ -41,7 +41,7 @@ export const TableStyled = styled.div`
   display: flex;
   flex-direction: row;
   gap: 20px;
-  justify-content: center;
+  justify-content: left;
 `;
 
 export const ColumnStyled = styled.div``;
