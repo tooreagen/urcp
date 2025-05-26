@@ -7,9 +7,9 @@ const MainMenu = () => {
       <Container>
         <MenuList>
           <MenuItem>Информация</MenuItem>
-          <MenuItem>Статьи</MenuItem>
+          {/* <MenuItem>Статьи</MenuItem>
           <MenuItem>Отзывы</MenuItem>
-          <MenuItem>Контакты</MenuItem>
+          <MenuItem>Контакты</MenuItem> */}
         </MenuList>
       </Container>
     </MainMenuStyle>

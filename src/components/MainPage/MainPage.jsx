@@ -4,6 +4,10 @@ import {
   MainPageUnorderedList,
   MainPageListItem,
   MainPageParagraphHeader,
+  SecondPageParagraphHeader,
+  TableStyled,
+  ColumnStyled,
+  ItemListStyled,
 } from "./MainPageStyled";
 
 const MainPage = () => {
@@ -79,8 +83,95 @@ const MainPage = () => {
         психотерапии и педагогического воздействия для оказания помощи больному, начинать лечение с
         этих методов.
       </MainPageParagraph>
-
       <MainPageParagraphHeader>Мы поможем Вам с такими заболеваниями</MainPageParagraphHeader>
+      <SecondPageParagraphHeader>Детские и подростковые проблемы</SecondPageParagraphHeader>
+      <TableStyled>
+        <ColumnStyled>
+          <ItemListStyled>
+            <li>алкоголизм</li>
+            <li>анорексия</li>
+            <li>апатия</li>
+            <li>аутизм</li>
+            <li>бессонница</li>
+            <li>гиперактивность</li>
+            <li>депрессия</li>
+            <li>задержка психоречевого развития</li>
+            <li>заикание</li>
+            <li>злоупотребление кофеином</li>
+            <li>злоупотребление опиатами</li>
+            <li>злоупотребление психостимуляторами</li>
+            <li>злоупотребление снотворными</li>
+            <li>игромания</li>
+            <li>иппохондрия</li>
+            <li>маниакально депрессивное расстройство</li>
+            <li>наркомания</li>
+            <li>нарушение координации</li>
+            <li>нарушение сна</li>
+            <li>нарушение школьной успеваемости</li>
+          </ItemListStyled>
+        </ColumnStyled>
+        <ColumnStyled>
+          <ItemListStyled>
+            <li>неврозы</li>
+            <li>никотиномания</li>
+            <li>расстройства речевой артикуляции</li>
+            <li>расстройство речи</li>
+            <li>синдром Аспергера</li>
+            <li>синдром Ретта</li>
+            <li>синдром Жилль де ла Туретта</li>
+            <li>стереотипия</li>
+            <li>страхи</li>
+            <li>тики</li>
+            <li>токсикомания</li>
+            <li>тревога</li>
+            <li>трихотиломания</li>
+            <li>ужасы во время сна</li>
+            <li>умственная отсталость</li>
+            <li>фобия</li>
+            <li>шизофрения</li>
+            <li>элективный мутизм</li>
+            <li>энкопрез</li>
+            <li>энурез</li>
+          </ItemListStyled>
+        </ColumnStyled>
+      </TableStyled>
+      <SecondPageParagraphHeader>Взрослые проблемы</SecondPageParagraphHeader>
+      <TableStyled>
+        <ColumnStyled>
+          <ItemListStyled>
+            <li>алкоголизм</li>
+            <li>анорексия</li>
+            <li>апатия</li>
+            <li>вегето-сосудистая дистония</li>
+            <li>депрессия</li>
+            <li>злоупотребление кофеином</li>
+            <li>злоупотребление опиатами</li>
+            <li>злоупотребление психостимуляторами</li>
+            <li>злоупотребление слабительными</li>
+            <li>злоупотребление снотворными</li>
+            <li>игромания</li>
+            <li>ипохондрические расстройства</li>
+            <li>наркомания</li>
+          </ItemListStyled>
+        </ColumnStyled>
+        <ColumnStyled>
+          <ItemListStyled>
+            <li>нарушение координации</li>
+            <li>неврозы</li>
+            <li>никотиномания</li>
+            <li>острая реакция на стресс</li>
+            <li>панические атаки</li>
+            <li>патологическое влечение к воровству (клептомания) </li>
+            <li>патологическое влечение к поджогам (пиромания)</li>
+            <li>расстройство сексуального предпочтения</li>
+            <li>страхи</li>
+            <li>токсикомания</li>
+            <li>тревога</li>
+            <li>тревожно-депрессивные расстройства</li>
+            <li>фобия</li>
+          </ItemListStyled>
+        </ColumnStyled>
+      </TableStyled>
     </MainPageStyle>
   );
 };

@@ -1,10 +1,13 @@
 import { Container } from "../Layout/LayoutStyled";
+import SocialIcons from "../SocialIcons/SocialIcons";
 import { FooterStyled } from "./FooterStyled";
 
 const Footer = () => {
   return (
     <FooterStyled>
-      <Container> Footer</Container>
+      <Container>
+        <SocialIcons />
+      </Container>
     </FooterStyled>
   );
 };

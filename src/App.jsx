@@ -1,7 +1,7 @@
-import { GlobalStyle } from './GlobalStyle';
+import { GlobalStyle } from './components/GlobalStyle';
 import { Routes, Route } from 'react-router-dom';
-import Layout from './Layout/Layout';
-import MainPage from './MainPage/MainPage';
+import Layout from './components/Layout/Layout';
+import MainPage from './components/MainPage/MainPage';
 
 export const App = () => {
   return (
